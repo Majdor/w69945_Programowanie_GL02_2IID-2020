@@ -1,0 +1,37 @@
+#myButton {
+    background-color: rgb(11, 138, 32); 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myButton:active {
+    background-color: red; 
+  }
+
+  #myButton2 {
+    background-color: rgb(43, 6, 112); 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myButton2:active {
+    background-color: rgb(141, 87, 5); 
+  }
+
+  #myButton3 {
+    background-color: rgb(139, 4, 33); 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myButton3:active {
+    background-color: rgb(0, 0, 0); 
+  }
+
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Visibility Button</title>
+  <link rel="stylesheet" href="lab 6.css">
+</head>
+<body>
+  <button id="myButton">Przycisk 1</button>
+  <button id="myButton2">Przycisk 2</button>
+  <button id="myButton3">Przycisk 3</button>
+  <br>
+  <button id="hideButton">Ukryj Tekst</button>
+  <p id="textToHide">To jest tekst, który zostanie ukryty po kliknięciu przycisku.</p>
+  <button id="toggleVisibilityButton">Zmień Widoczność Elementu</button>
+  <br>
+  <br>
+  <br>
+  <input type="text" id="textInput" placeholder="Wpisz tekst...">
+  <button id="addButton">Dodaj do Listy</button>
+  <ul id="textList"></ul>
+  <br>
+  <input type="text" id="imieInput" placeholder="Imię">
+  <input type="text" id="nazwiskoInput" placeholder="Nazwisko">
+  <button id="addButton"onclick="f()">Dodaj do Tabeli</button>
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="tabelaBody">
+    </tbody>
+  </table>
+  <script src="lab 6.js"></script>
+
+</body>
+</html>
+
