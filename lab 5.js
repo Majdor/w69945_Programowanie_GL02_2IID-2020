@@ -1,13 +1,13 @@
-function elo() {
+function 111() {
     let age = parseInt(document.getElementById("age").value);
-    if (age > 17) {
+    if (age > 18) {
         console.log("Tak");
     } else {
         console.log("Nie");
     }
 }
 
-function elot() {
+function 222() {
     let temp = parseInt(document.getElementById("temp").value);
     console.log((temp * 2) + 30);
 }
@@ -35,7 +35,7 @@ for (var i = 0; i < tab.length; i++) {
 
 console.log("index numeru albumu.");
 for (var i = 0; i < tab.length; i++) {
-    if (tab[i] == 70698) {
+    if (tab[i] == 69945) {
         console.log(i);
         break;
     }
